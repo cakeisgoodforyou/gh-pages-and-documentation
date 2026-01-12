@@ -37,10 +37,32 @@ Recently I have also expanded into AI engineering and this page is designed to s
 #### Tags
 AWS Bedrock • S3 Vectors • Lambda • Terraform • Python 3.12
 
-*Last updated: January 2025*
+*Last updated: January 2026*
 
 ---
 
-### xyz
+### Agentic-API-Developer
 
-**TBC...
+**A Multi-Agent System for generating and testing python code designed to interact with third party APIs
+
+### Highlights
+- ✅ **Multi-Agent Orchestration**: Three specialized agents working together autonomously
+- ✅ **AI Code Generation**: Claude writes production-ready Python code for API integrations  
+- ✅ **Fully Automated Deployment**: Zero click-ops, complete Terraform IaC
+- ✅ **Secure Sandbox Execution**: Isolated Python execution environment with validation
+- ✅ **Real API Integration**: Live Stripe API testing with secret management
+- ✅ **Code Versioning**: All generated code stored in S3 with timestamps
+- ✅ **Production Security**: Least privilege IAM, encrypted secrets, rate limiting
+
+#### Links
+
+- [Project Details→](agentic-api-developer)
+- [Architecture →](agentic-api-developer-architecture)
+- [Code →](https://github.com/cakeisgoodforyou/agentic-api-developer)
+
+#### Tags
+AWS Bedrock • Bedrock Agents • Lambda • Terraform • Python 3.12
+
+*Last updated: January 2026*
+
+---
