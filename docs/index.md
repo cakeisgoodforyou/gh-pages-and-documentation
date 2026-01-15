@@ -66,3 +66,11 @@ AWS Bedrock • Bedrock Agents • Lambda • Terraform • Python 3.12
 *Last updated: January 2026*
 
 ---
+
+### ### LangChain Agentic-DBT-Generator
+
+**A Multi-Agent LangChain System for generating and testing common DBT patterns
+
+*Last updated: January 2026*
+
+---
