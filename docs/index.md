@@ -69,7 +69,25 @@ AWS Bedrock • Bedrock Agents • Lambda • Terraform • Python 3.12
 
 ### ### LangChain Agentic-DBT-Generator
 
-**A Multi-Agent LangChain System for generating and testing common DBT patterns
+**A Multi-Agent LangChain System for generating and refining DBT projects and models.
+
+## Key Features
+- 🚀 **Built on Langchain**: Popular python module for Agentic systems makes integrating new agents veyr easy  
+- 💥 **multi-Agent Architecture**: Planning, Generating and Refining agents work together in simple but powerful flow
+- 🥳 **Complete DBT Project Generation**: agents easily define complete projects and supply a build script to generate files locally
+- 📚 **Fully Automated Deployment**: complete Terraform IaC
+- ☁️ **Code Versioning**: All LLM generated and refined code stored in S3 with timestamped run folders
+- 🔧 **Production Security**: Least privilege IAM, encrypted secrets, rate limiting
+
+#### Links
+
+- [Project Details→](agentic-dbt-generator)
+- [Architecture →](agentic-dbt-generator-architecture)
+- [Code →](https://github.com/cakeisgoodforyou/agentic-dbt-generator)
+
+#### Tags
+
+Langchanin • AWS Bedrock • ECS • Glue • Athena • Terraform • Python 3.12
 
 *Last updated: January 2026*
 
