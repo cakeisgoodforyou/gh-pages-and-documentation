@@ -72,9 +72,9 @@ AWS Bedrock • Bedrock Agents • Lambda • Terraform • Python 3.12
 **A Multi-Agent LangChain System for generating and refining DBT projects and models.
 
 ## Key Features
-- 🚀 **Built on Langchain**: Popular python module for Agentic systems makes integrating new agents veyr easy  
-- 💥 **multi-Agent Architecture**: Planning, Generating and Refining agents work together in simple but powerful flow
-- 🥳 **Complete DBT Project Generation**: agents easily define complete projects and supply a build script to generate files locally
+- 🚀 **Built on Langchain**: Popular python module for Agentic systems makes integrating new agents very easy  
+- 💥 **multi-Agent Architecture**: Planning, generating and refining agents work together in simple but powerful flow
+- 🥳 **Complete DBT Project Generation**: agents easily define complete projects and supply a build script to generate locally
 - 📚 **Fully Automated Deployment**: complete Terraform IaC
 - ☁️ **Code Versioning**: All LLM generated and refined code stored in S3 with timestamped run folders
 - 🔧 **Production Security**: Least privilege IAM, encrypted secrets, rate limiting
