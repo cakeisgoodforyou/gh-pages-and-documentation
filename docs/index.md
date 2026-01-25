@@ -41,7 +41,34 @@ AWS Bedrock • S3 Vectors • Lambda • Terraform • Python 3.12
 
 ---
 
-### Agentic-API-Developer
+### LangGraph SQL Assistant With Human in Loop
+
+**A Multi-Agent LangGraph System for generating and testing SQL using Athena & LLMs from Bedrock
+
+## Key Features
+- 🚀 **Built with LangGraph**: Generate, Refine and Execute workflow nodes with human in the loop approval
+- 🥳 **Build, Test & Execute Complex SQL Scripts**: Designed to work with AWS Athena for data exploration
+- 📚 **Fully automated Deployment**: complete Terraform IaC
+- 🔧 **Production Security**: Least privilege IAM, encrypted secrets, rate limiting
+
+#### Links
+
+- [Project Details→](agentic-SQL-assistant)
+- [Architecture →](agentic-SQL-assistant-architecture)
+- [Code →](https://github.com/cakeisgoodforyou/Agentic-SQL-Assistant-Langgraph)
+- [Main.py Details →](agentic-SQL-assistant-main-details)
+- [LangGraph Workflow Details →](agentic-SQL-assistant-workflow-details)
+
+
+#### Tags
+
+LangGraph • Langchanin • AWS Bedrock • ECS • Glue • Athena • Terraform • Python 3.12
+
+*Last updated: January 2026*
+
+---
+
+### Bedrock Agents API Developer
 
 **A Multi-Agent System for generating and testing python code designed to interact with third party APIs
 
@@ -88,35 +115,6 @@ AWS Bedrock • Bedrock Agents • Lambda • Terraform • Python 3.12
 #### Tags
 
 Langchanin • AWS Bedrock • ECS • Glue • Athena • Terraform • Python 3.12
-
-*Last updated: January 2026*
-
----
-
-
-
-### LangGraph SQL Assistant With Human in Loop
-
-**A Multi-Agent LangGraph System for generating and testing SQL using Athena & LLMs from Bedrock
-
-## Key Features
-- 🚀 **Built with LangGraph**: Generate, Refine and Execute workflow nodes with human in the loop approval
-- 🥳 **Build, Test & Execute Complex SQL Scripts**: Designed to work with AWS Athena for data exploration
-- 📚 **Fully automated Deployment**: complete Terraform IaC
-- 🔧 **Production Security**: Least privilege IAM, encrypted secrets, rate limiting
-
-#### Links
-
-- [Project Details→](agentic-SQL-assistant)
-- [Architecture →](agentic-SQL-assistant-architecture)
-- [Code →](https://github.com/cakeisgoodforyou/Agentic-SQL-Assistant-Langgraph)
-- [Main.py Details →](agentic-SQL-assistant-main-details)
-- [LangGraph Workflow Details →](agentic-SQL-assistant-workflow-details)
-
-
-#### Tags
-
-LangGraph • Langchanin • AWS Bedrock • ECS • Glue • Athena • Terraform • Python 3.12
 
 *Last updated: January 2026*
 
