@@ -32,7 +32,7 @@ GCP • Vertex AI • Cloudrun • Terraform • LangGraph
 
 ---
 
-### 💥 s3 Vectors RAG Embedding App
+### 💥 s3 Vectors RAG Embedding App (Bedrock Knowledge Bases)
 
 A Complete Infrastructure as Code Deployment for a RAG Vector Store Using AWS Bedrock and s3 Vectors.
 
