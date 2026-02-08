@@ -23,7 +23,7 @@ All plans and executions approved by human in the loop with Pub/Sub.
 - GCP, BigQuery, Vertex AI, LangGraph.
 - [Code ](https://github.com/cakeisgoodforyou/genAI-data-engineer-langgraph/)
 - [Details ](genAI-data-engineer-langgraph) 
-- [Architecture]
+- [Architecture](./assets/images/genAI-data-engineer-architecture.svg)
 
 #### Tags
 GCP • Vertex AI • Cloudrun • Terraform • LangGraph
