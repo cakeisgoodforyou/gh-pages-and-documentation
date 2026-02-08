@@ -6,61 +6,72 @@ title: Home
 ## About Me
 
 My name is Andy Clynes and I am a data, analytics, devOps and GenAI professional with over 10 years industry experience.
-Starting in data analytics and data science I later transitioned into data engineering and then again into operations engineering / devOps
-in order to get the complete end-to-end data and analytics stack experience.
-
-Recently I have also expanded into AI engineering and this page is designed to showcase some interesting projects I have been developing.
+Starting in data analytics and data science I later transitioned into data engineering and then again into platform engineering and devOps.  Recently I have also expanded into AI engineering and this page is designed to showcase some interesting projects I have been developing.
 
 [GitHub](https://github.com/cakeisgoodforyou) • [LinkedIn](#)
 
 ## Featured Projects
 
-### s3vectors-url-embed
+### 💥 Gen AI Data Engineer (GCP Vertex AI & LangGraph)
 
-**A Complete Infrastructure as Code Deployment for a RAG Vector Store Using AWS Bedrock and s3 Vectors.**
+Go beyond chats and prompts.  Get your agents to plan and execute complex data engineering workflows with many steps.  Agents can use outputs from earlier steps and easily interacy with data in bigquery and files in GCS.
 
-### Highlights
-- 💥 Automatically retrieve, process, and embed web docs / URLS for RAG systems 
-- ☁️ Native AWS solution using Bedrock Knowledge-Bases, s3-Vectors and Lambda
-- 💰 s3-Vectors drastically reduces storage costs vs traditional OpenSearch vector store
-- 🥳 Low maintenance ingestion and embedding using Bedrock sync data source feature
-- 📚 Includes lambda function to crawl and parse a given URL into  appropriately sized and cleanly formatted chunks for embedding
-- 🔧 Production-ready: Safe and secure with logging, monitoring and error handling
-- 🚀 Easy deployment with no hard-coded variables and simple to read, low complexity terraform
-
-#### Links
-
-- [Project Details→](s3-vectors-url-embed)
-- [Architecture →](s3-vectors-url-embed-architecture)
-- [Code →](https://github.com/cakeisgoodforyou/s3vectors-url-embed)
+- Uses LangGraph to create dynamic workflows for complex data tasks.
+- Upload an existing plan or leave it to the agents.
+- Easy to add new tools and functions to extend agent capabilities.
+- GCP, BigQuery, Vertex AI, LangGraph.
+- [Code ](https://github.com/cakeisgoodforyou/genAI-data-engineer-langgraph/)
+- [Details ](genAI-data-engineer-langgraph) 
+- [Architecture]
 
 #### Tags
+GCP • Vertex AI • Cloudrun • Terraform • LangGraph
+
+*Last updated: February 2026*
+
+---
+
+### 💥 s3 Vectors RAG Embedding App
+
+A Complete Infrastructure as Code Deployment for a RAG Vector Store Using AWS Bedrock and s3 Vectors.
+
+- Chunk and embed any public URL directly into a low cost AWs bedrock Knowledge base using s3 vector store.
+- Extremely low cost and low maintenance solution for RAG implementations.
+- [Code ](https://github.com/cakeisgoodforyou/s3vectors-url-embed) 
+- [Details ](s3-vectors-url-embed) 
+- [Architecture ](s3-vectors-url-embed-architecture)
+
 AWS Bedrock • S3 Vectors • Lambda • Terraform • Python 3.12
 
 *Last updated: January 2026*
 
 ---
 
-### LangGraph SQL Assistant With Human in Loop
+### 💥 Bedrock Agents API Develepor / Tester
 
-**A Multi-Agent LangGraph System for generating and testing SQL using Athena & LLMs from Bedrock
+A Multi-Agent System for generating and testing python code designed to interact with third party APIs.
 
-## Key Features
-- 🚀 **Built with LangGraph**: Generate, Refine and Execute workflow nodes with human in the loop approval
-- 🥳 **Build, Test & Execute Complex SQL Scripts**: Designed to work with AWS Athena for data exploration
-- 📚 **Fully automated Deployment**: complete Terraform IaC
-- 🔧 **Production Security**: Least privilege IAM, encrypted secrets, rate limiting
+- Bypass complex routing and development required for LangChain & LangGraph with AWS Bedrock Agents.
+- Provide API keys for a third party API and let the agents create and test new requests.
+- [Code ](https://github.com/cakeisgoodforyou/agentic-api-developer)
+- [Detail](agentic-api-developer)
+- [Architecture ](agentic-api-developer-architecture)
 
-#### Links
+AWS Bedrock • Bedrock Agents • Lambda • Terraform • Python 3.12
 
-- [Project Details→](agentic-SQL-assistant)
-- [Architecture →](agentic-SQL-assistant-architecture)
-- [Code →](https://github.com/cakeisgoodforyou/Agentic-SQL-Assistant-Langgraph)
-- [Main.py Details →](agentic-SQL-assistant-main-details)
-- [LangGraph Workflow Details →](agentic-SQL-assistant-workflow-details)
+*Last updated: January 2026*
 
+---
 
-#### Tags
+### 💥 LangChain SQL Assistant (AWS Bedrock)
+
+A Multi-Agent LangGraph System for generating and testing SQL using Athena & LLMs from Bedrock
+
+- Implements a basic SQL assistant in AWS using LangChain.
+- Human in the loop approval before any code executions.
+- [Code ](https://github.com/cakeisgoodforyou/Agentic-SQL-Assistant-Langgraph)
+- [Detail](agentic-SQL-assistant)
+- [Architecture ](agentic-SQL-assistant-architecture)
 
 LangGraph • Langchanin • AWS Bedrock • ECS • Glue • Athena • Terraform • Python 3.12
 
@@ -68,51 +79,14 @@ LangGraph • Langchanin • AWS Bedrock • ECS • Glue • Athena • Terrafo
 
 ---
 
-### Bedrock Agents API Developer
+### 💥 LangChain DBT generator (AWS Bedrock & Glue)
 
-**A Multi-Agent System for generating and testing python code designed to interact with third party APIs
-
-### Highlights
-- ✅ **Multi-Agent Orchestration**: Three specialized agents working together autonomously
-- ✅ **AI Code Generation**: Claude writes production-ready Python code for API integrations  
-- ✅ **Fully Automated Deployment**: Zero click-ops, complete Terraform IaC
-- ✅ **Secure Sandbox Execution**: Isolated Python execution environment with validation
-- ✅ **Real API Integration**: Live Stripe API testing with secret management
-- ✅ **Code Versioning**: All generated code stored in S3 with timestamps
-- ✅ **Production Security**: Least privilege IAM, encrypted secrets, rate limiting
-
-#### Links
-
-- [Project Details→](agentic-api-developer)
-- [Architecture →](agentic-api-developer-architecture)
-- [Code →](https://github.com/cakeisgoodforyou/agentic-api-developer)
-
-#### Tags
-AWS Bedrock • Bedrock Agents • Lambda • Terraform • Python 3.12
-
-*Last updated: January 2026*
-
+- Read dataset and table schemas from AWS Glue.
+- Use the results to create a complete DBT project with Claude.
+- [Code ](https://github.com/cakeisgoodforyou/agentic-dbt-generator)
+- [Architecture ](agentic-dbt-generator-architecture)
+- [Detail](agentic-dbt-generator)
 ---
-
-### LangChain Agentic-DBT-Generator
-
-**A Multi-Agent LangChain System for generating and refining DBT projects and models.
-
-## Key Features
-- 🚀 **Built on Langchain**: Popular python module for Agentic systems makes integrating new agents very easy  
-- 💥 **multi-Agent Architecture**: Planning, generating and refining agents work together in simple but powerful flow
-- 🥳 **Complete DBT Project Generation**: agents easily define complete projects and supply a build script to generate locally
-- 📚 **Fully Automated Deployment**: complete Terraform IaC
-- ☁️ **Code Versioning**: All LLM generated and refined code stored in S3 with timestamped run folders
-- 🔧 **Production Security**: Least privilege IAM, encrypted secrets, rate limiting
-
-#### Links
-
-- [Project Details→](agentic-dbt-generator)
-- [Architecture →](agentic-dbt-generator-architecture)
-- [Code →](https://github.com/cakeisgoodforyou/agentic-dbt-generator)
-
-#### Tags
 
 Langchanin • AWS Bedrock • ECS • Glue • Athena • Terraform • Python 3.12
 
