@@ -14,7 +14,8 @@ Starting in data analytics and data science I later transitioned into data engin
 
 ### 💥 Gen AI Data Engineer (GCP Vertex AI & LangGraph)
 
-Go beyond chats and prompts.  Get your agents to plan and execute complex data engineering workflows with many steps.  Agents can use outputs from earlier steps and easily interacy with data in bigquery and files in GCS.
+Go beyond chats and prompts.  Get your agents to plan and execute complex data engineering workflows with many steps.  Agents can use outputs from earlier steps and easily interact with data in bigquery and files in GCS.
+All plans and executions approved by human in the loop with Pub/Sub.
 
 - Uses LangGraph to create dynamic workflows for complex data tasks.
 - Upload an existing plan or leave it to the agents.
