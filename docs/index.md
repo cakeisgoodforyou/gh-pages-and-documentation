@@ -87,7 +87,7 @@ LangGraph • Langchanin • AWS Bedrock • ECS • Glue • Athena • Terrafo
 - [Code ](https://github.com/cakeisgoodforyou/agentic-dbt-generator)
 - [Architecture ](agentic-dbt-generator-architecture)
 - [Detail](agentic-dbt-generator)
----
+
 
 Langchanin • AWS Bedrock • ECS • Glue • Athena • Terraform • Python 3.12
 
