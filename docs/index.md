@@ -12,6 +12,25 @@ Starting in data analytics and data science I later transitioned into data engin
 
 ## Featured Projects
 
+
+### 💥 Gen AI Data Engineer v2 (GCP OpenAI, Anthropic & LangGraph)
+
+Get your agents to plan and execute complex data engineering workflows with many steps.  Agents can use outputs from earlier steps and easily interact with data in bigquery and files in GCS.
+Great for creating re-usable plans that can be easily loaded in / updated for future tasks.
+
+- Uses LangGraph to create dynamic workflows for complex data tasks.
+- Upload an existing plan or leave it to the agents.
+- Easy to add new tools and functions to extend agent capabilities.
+- GCP, BigQuery, Vertex AI, LangGraph.
+- [Code ](https://github.com/cakeisgoodforyou/genAI-data-engineer-v2)
+- [Details ](genAI-data-engineer-langgraph) 
+- [Architecture](./assets/images/genAI-data-engineer-architecture.svg)
+
+#### Tags
+GCP • OpenAI • Cloudrun • Terraform • LangGraph
+
+*Last updated: February 2026*
+
 ### 💥 Gen AI Data Engineer (GCP Vertex AI & LangGraph)
 
 Go beyond chats and prompts.  Get your agents to plan and execute complex data engineering workflows with many steps.  Agents can use outputs from earlier steps and easily interact with data in bigquery and files in GCS.

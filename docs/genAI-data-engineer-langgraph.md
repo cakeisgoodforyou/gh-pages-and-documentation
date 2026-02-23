@@ -11,7 +11,7 @@ An AI-powered data analytics assistant that uses LangGraph workflows to plan, ge
 - **Storage**: Google Cloud Storage
 - **Messaging**: Google Pub/Sub (for approvals)
 
-[Architecture](./assets/images/genAI-data-engineer-architecture.svg)
+![Architecture](./assets/images/genAI-data-engineer-architecture.svg)
 
 ## Core Components
 
